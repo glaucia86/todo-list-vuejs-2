@@ -8,5 +8,6 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 - Vuejs 2;
 - Node.js;
 - Npm;
+- Conceito de SPA;
 
 **documentação em desenvolvimento**
