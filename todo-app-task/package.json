@@ -8,6 +8,7 @@
     "dev": "webpack-dev-server --open --hot --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
+    "fix": "eslint --ext .js,.vue --fix src",
     "build": "node build/build.js"
   },
   "dependencies": {
