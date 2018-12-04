@@ -1,9 +1,9 @@
 <template>
-  <div class="">
+  <div class="TodoList">
     <ul>
-      <li> Todo A </li>
-      <li> Todo B </li>
-      <li> Todo C </li>
+      <li>Todo A</li>
+      <li>Todo B</li>
+      <li>Todo C</li>
     </ul>
   </div>
 </template>
