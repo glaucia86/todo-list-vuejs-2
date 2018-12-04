@@ -13,7 +13,7 @@ Vue.use(Router);
 
 export default new Router({
   routes: [
-    { path: '/', name: 'todo-list', component: TodoList },
-    { path: '/todo-list', redirect: '/' },
+    { path: '/todo-list', name: 'todo-list', component: TodoList },
+    // { path: '/', redirect: '/todolist' },
   ],
 });
