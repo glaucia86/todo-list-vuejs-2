@@ -7,13 +7,16 @@
 
 import Vue from 'vue';
 import Router from 'vue-router';
+
 import TodoList from '@/components/pages/TodoList';
 
 Vue.use(Router);
 
-export default new Router({
+const router = new Router({
   routes: [
-    { path: '/todo-list', name: 'todo-list', component: TodoList },
-    // { path: '/', redirect: '/todolist' },
+    { path: '/', name: 'todo-list', component: TodoList },
+    // { path: '/', redirect: '/todo-list' },
   ],
 });
+
+export default router;
