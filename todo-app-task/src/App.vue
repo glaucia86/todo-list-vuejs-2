@@ -5,21 +5,6 @@
   </div>
 </template>
 
-<script src='./services/Data.js'>
-
-/* import TodoList from '@/components/pages/TodoList';
-
-export default {
-  name: 'app',
-  components: {
-    TodoList,
-  },
-  data() {
-    return {
-      msg: '',
-    };
-  },
-}; */
-</script>
+<script src='./services/Data.js' />
 
 <style></style>

@@ -6,7 +6,6 @@
  * Autora: Glaucia Lemos
  */
 
-
 export default {
   name: 'TodoList',
   props: ['todos'],

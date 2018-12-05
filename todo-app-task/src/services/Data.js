@@ -5,7 +5,6 @@
  * Autora: Glaucia Lemos
  */
 
-// import Vue from 'vue';
 import TodoList from '@/components/pages/TodoList';
 
 export default {
