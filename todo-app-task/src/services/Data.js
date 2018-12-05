@@ -15,7 +15,23 @@ export default {
   },
   data() {
     return {
-
+      todos: [{
+        titulo: 'Todo A',
+        projeto: 'Projeto A',
+        concluido: false,
+      }, {
+        titulo: 'Todo B',
+        projeto: 'Projeto B',
+        concluido: true,
+      }, {
+        titulo: 'Todo C',
+        projeto: 'Projeto C',
+        concluido: false,
+      }, {
+        titulo: 'Todo D',
+        projeto: 'Projeto D',
+        concluido: false,
+      }],
     };
   },
 };
