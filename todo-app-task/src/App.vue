@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <todo-list></todo-list>
+    <todo-list v-bind:todos="todos"></todo-list>
     <router-view/>
   </div>
 </template>
