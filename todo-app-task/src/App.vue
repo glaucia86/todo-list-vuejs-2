@@ -6,9 +6,13 @@
 
 <script>
 
+import TodoList from '@/components/pages/TodoList';
+
 export default {
   name: 'app',
-  components: {},
+  components: {
+
+  },
   data() {
     return {
       msg: '',
