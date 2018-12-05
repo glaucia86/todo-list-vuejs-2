@@ -15,7 +15,7 @@ Vue.use(Router);
 const router = new Router({
   mode: 'history',
   routes: [
-    { path: '/', name: 'todo-list', component: TodoList },
+    { path: '/todo-list', name: 'todo-list', component: TodoList },
   ],
 });
 

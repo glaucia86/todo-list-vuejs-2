@@ -23,14 +23,16 @@
           </span>
         </div>
       </div>
-      <!-- Inclusão do botão - Concluído -->
+      <!-- Botão - Concluído -->
       <div class='ui bottom attached green basic button' v-show="todo.concluido">
         Concluído
       </div>
+      <!-- Botão - Pendente -->
       <div class='ui bottom attached red basic button' v-show="!todo.concluido">
         Pendente
       </div>
     </div>
+    <div></div>
   </div>
 </template>
 
