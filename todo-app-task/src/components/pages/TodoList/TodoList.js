@@ -11,7 +11,7 @@ export default {
   props: ['todos'],
   data() {
     return {
-      msg: '',
+      msg: 'Testando se de fato aparece algo....',
     };
   },
 };

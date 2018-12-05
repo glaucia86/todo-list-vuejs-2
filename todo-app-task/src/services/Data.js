@@ -8,7 +8,7 @@
 import TodoList from '@/components/pages/TodoList';
 
 export default {
-  name: '',
+  name: 'app',
   components: {
     TodoList,
   },

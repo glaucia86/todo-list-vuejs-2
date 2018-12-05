@@ -13,9 +13,9 @@ import TodoList from '@/components/pages/TodoList';
 Vue.use(Router);
 
 const router = new Router({
+  mode: 'history',
   routes: [
     { path: '/', name: 'todo-list', component: TodoList },
-    // { path: '/', redirect: '/todo-list' },
   ],
 });
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="TodoList">
+  <div class="todolist">
     <p>Tarefa(s) Concluída(s):
       <!--{{ todos.filter(todo => { return todo.concluido === true }).length }}-->
       {{ (todos || []).filter(todo => { return todo.concluido === true }).length }}
@@ -35,5 +35,4 @@
 </template>
 
 <script src="./TodoList.js" type="text/javascript"/>
-
 <style scoped></style>
