@@ -1,13 +1,10 @@
 <template>
   <div class="todolist">
     <p>Tarefa(s) Concluída(s):
-      <!--{{ todos.filter(todo => { return todo.concluido === true }).length }}-->
-      {{ (todos || []).filter(todo => { return todo.concluido === true }).length }}
+      {{ todos.filter(todo => { return todo.concluido === true }).length }}
     </p>
     <p>Tarefa(s) Pendente(s):
-      <!-- Expicação:  https://stackoverflow.com/questions/50249603/cannot-read-property-filter-of-undefined-error -->
-      <!--{{ todos.filter(todo => { return todo.concluido === false }).length }}-->
-      {{ (todos || []).filter(todo => { return todo.concluido === false }).length }}
+      {{ todos.filter(todo => { return todo.concluido === false }).length }}
     </p>
     <div class='ui centered card' v-for="todo in todos" :key="todo.value">
       <div class='content'>
