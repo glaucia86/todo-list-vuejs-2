@@ -11,5 +11,6 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 - UI Semantic;
 - Sweetheart Alert;
 - Conceito de SPA;
+- Vue Router;
 
 **documentação em desenvolvimento**
