@@ -1,8 +1,10 @@
 /**
+ *
  * Arquivo: src/middlewares/router.js
  * Data: 04/12/2018
  * Descrição: arquivo responsável por lidar com todas as rotas da aplicação.
  * Autora: Glaucia Lemos
+ *
  */
 
 import Vue from 'vue';
