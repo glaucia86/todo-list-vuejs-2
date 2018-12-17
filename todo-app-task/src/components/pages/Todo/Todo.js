@@ -10,4 +10,17 @@
 export default {
   name: 'Todo',
   props: ['todo'],
+  data() {
+    return {
+      ehEditavel: false,
+    };
+  },
+  methods: {
+    abrirForm() {
+      this.ehEditavel = true;
+    },
+    fecharForm() {
+      this.ehEditavel = false;
+    },
+  },
 };
