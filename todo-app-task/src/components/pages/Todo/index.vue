@@ -1,6 +1,5 @@
 <template>
-  <div class="todo">
-  </div>
+  <div class="todo"></div>
 </template>
 
 <script src="./Todo.js"/>

@@ -33,5 +33,5 @@
   </div>
 </template>
 
-<script src="./TodoList.js" type="text/javascript"/>
+<script src="./TodoList.js" />
 <style scoped></style>
