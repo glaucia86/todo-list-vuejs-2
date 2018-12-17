@@ -7,12 +7,12 @@
  *
  */
 
+import Todo from '@/components/pages/Todo';
+
 export default {
   name: 'TodoList',
   props: ['todos'],
-  data() {
-    return {
-      msg: 'Testando se de fato aparece algo....',
-    };
+  components: {
+    Todo,
   },
 };

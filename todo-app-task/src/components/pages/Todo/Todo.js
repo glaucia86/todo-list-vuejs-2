@@ -9,9 +9,5 @@
 
 export default {
   name: 'Todo',
-  data() {
-    return {
-      msg: 'Testando se de fato aparece algo....',
-    };
-  },
+  props: ['todo'],
 };
