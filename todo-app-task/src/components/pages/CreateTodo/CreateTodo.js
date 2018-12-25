@@ -11,7 +11,31 @@ export default {
   name: 'CreateTodo',
   data() {
     return {
-      msg: 'Componente CreateTodo',
+      textoTitulo: '',
+      textoProjeto: '',
+      foiCriado: false,
     };
+  },
+  methods: {
+    abrirForm() {
+      this.foiCriado = true;
+    },
+    fecharForm() {
+      this.foiCriado = false;
+    },
+    enviarForm() {
+      if (this.textoTitulo.length > 0 && this.textoProjeto > 0) {
+        const titulo = this.textoTitulo;
+        const projeto = this.textoProjeto;
+
+        this.$emit('create-todo', {
+          titulo,
+          projeto,
+          feito: false,
+        });
+        this.adicionarTextoTodo = '';
+      }
+      this.foiCriado = false;
+    },
   },
 };

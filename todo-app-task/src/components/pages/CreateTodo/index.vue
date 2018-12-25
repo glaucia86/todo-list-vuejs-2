@@ -1,14 +1,14 @@
 <template>
   <div class="ui basic content center aligned segment">
-    <button class="ui basic button icon" v-on:click="abrirForm" v-show="!criarTodo">
+    <button class="ui basic button icon" v-on:click="abrirForm" v-show="!foiCriado">
       <i class="plus icon"></i>
     </button>
-    <div class="ui centered card" v-show="criarTodo">
+    <div class="ui centered card" v-show="foiCriado">
       <div class="content">
         <div class="ui form">
           <div class="field">
             <label>Título</label>
-            <input v-model="titulo" type="text" ref="titulo" defaultValue="">
+            <input v-model="textoTitulo" type="text" ref="textoTitulo" defaultValue="">
           </div>
           <div class="field">
             <label>Projeto</label>
@@ -18,7 +18,7 @@
             <button class="ui basic blue button" v-on:click="enviarForm()">
               Adicionar
             </button>
-            <button class="ui basic red button" v-on:click="fecharForm">
+            <button class="ui basic red button" v-on:click="fecharForm()">
               Cancelar
             </button>
           </div>
