@@ -22,6 +22,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     "no-new": "off",
+    "no-unused-expressions": "off",
     'import/extensions': ['error', 'always', {
       js: 'never',
       vue: 'never'

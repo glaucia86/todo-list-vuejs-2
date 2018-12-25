@@ -8,11 +8,11 @@
         <div class="ui form">
           <div class="field">
             <label>Título</label>
-            <input v-model="textoTitulo" type="text" ref="textoTitulo" defaultValue="">
+            <input v-model="textoTitulo" type="text">
           </div>
           <div class="field">
             <label>Projeto</label>
-            <input type="text" ref="projeto" defaultValue="">
+            <input v-model="textoProjeto" type="text">
           </div>
           <div class="ui two button attached buttons">
             <button class="ui basic blue button" v-on:click="enviarForm()">

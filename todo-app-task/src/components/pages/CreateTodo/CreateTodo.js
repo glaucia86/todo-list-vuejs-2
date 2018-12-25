@@ -33,9 +33,10 @@ export default {
           projeto,
           feito: false,
         });
-        this.adicionarTextoTodo = '';
+        this.textoTitulo = '';
+        this.textoProjeto = '';
+        this.foiCriado = false;
       }
-      this.foiCriado = false;
     },
   },
 };
