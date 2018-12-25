@@ -8,7 +8,15 @@
     </p>
     <!-- Aqui iremos passar os dados para o componente 'Todo' com o objetivo de renderizar
       o componente 'TodoList' -->
-    <todo v-for="todo in todos" v-bind:key="todo.value" v-bind:todo="todo"></todo>
+    <todo v-for="todo in todos"
+          v-bind:key="todo.value"
+          v-bind:todo="todo">
+    </todo>
+    <todo v-on:delete-todo="deleteTodo"
+          v-for="todo in todos"
+          v-bind:key="todo.value"
+          v-bind:todo="todo">
+    </todo>
   </div>
 </template>
 

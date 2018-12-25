@@ -15,4 +15,10 @@ export default {
   components: {
     Todo,
   },
+  methods: {
+    deleteTodo(todo) {
+      const todoIndex = this.todos.indexOf(todo);
+      this.todos.splice(todoIndex, 1);
+    },
+  },
 };

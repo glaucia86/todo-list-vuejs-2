@@ -22,5 +22,8 @@ export default {
     fecharForm() {
       this.ehEditavel = false;
     },
+    deleteTodo(todo) {
+      this.$emit('delete-todo', todo);
+    },
   },
 };
