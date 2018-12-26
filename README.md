@@ -12,5 +12,3 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 - Sweetheart Alert Package;
 - Conceito de SPA;
 - Vue Router;
-
-**documentação em desenvolvimento**
