@@ -31,7 +31,7 @@ export default {
         this.$emit('create-todo', {
           titulo,
           projeto,
-          feito: false,
+          concluido: false,
         });
         this.textoTitulo = '';
         this.textoProjeto = '';
