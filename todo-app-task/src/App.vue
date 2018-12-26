@@ -4,8 +4,7 @@
     <div class="ui three column centered grid">
       <div class="column">
         <todo-list v-bind:todos="todos"></todo-list>
-        <create-todo v-on:create-todo="adicionarTodo"></create-todo>
-        <!--<router-view></router-view>-->
+        <create-todo v-on:create-todo="createTodo"></create-todo>
       </div>
     </div>
     <router-view></router-view>
@@ -13,48 +12,47 @@
 </template>
 
 <script>
-
-import sweetAlert from 'sweetalert';
-import TodoList from './components/pages/TodoList';
-import CreateTodo from './components/pages/CreateTodo';
+import sweetAlert from "sweetalert";
+import TodoList from "./components/pages/TodoList/index";
+import CreateTodo from "./components/pages/CreateTodo/index";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     TodoList,
-    CreateTodo,
+    CreateTodo
   },
   data() {
     return {
       todos: [
         {
-          titulo: 'Todo A',
-          projeto: 'Projeto A',
-          concluido: false,
-        }, {
-          titulo: 'Todo B',
-          projeto: 'Projeto B',
-          concluido: true,
-        }, {
-          titulo: 'Todo C',
-          projeto: 'Projeto C',
-          concluido: false,
-        }, {
-          titulo: 'Todo D',
-          projeto: 'Projeto D',
-          concluido: false,
+          titulo: "Todo A",
+          projeto: "Projeto A",
+          concluido: false
         },
+        {
+          titulo: "Todo B",
+          projeto: "Projeto B",
+          concluido: true
+        },
+        {
+          titulo: "Todo C",
+          projeto: "Projeto C",
+          concluido: false
+        },
+        {
+          titulo: "Todo D",
+          projeto: "Projeto D",
+          concluido: false
+        }
       ],
     };
   },
   methods: {
-    adicionarTodo(titulo) {
-      this.todos.push(titulo);
+    createTodo(novoTitulo) {
+      this.todos.push(novoTitulo);
       sweetAlert('Success!', 'Adicionado To-Do', 'success');
-    },
-  },
+    }
+  }
 };
-
 </script>
-
-<style></style>

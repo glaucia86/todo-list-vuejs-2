@@ -4,12 +4,9 @@
  * Descrição: arquivo responsável por lidar com toda a lógica de execução da app.
  * Author: Glaucia Lemos
  */
-
-import router from '@/middlewares/router';
 import Vue from 'vue';
+import router from '@/middlewares/router';
 import App from './App';
-
-Vue.config.productionTip = false;
 
 new Vue({
   router,
