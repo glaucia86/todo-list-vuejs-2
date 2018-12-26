@@ -7,7 +7,7 @@
  *
  */
 import sweetAlert from 'sweetalert';
-import Todo from '@/components/pages/Todo';
+import Todo from '../Todo/index';
 
 export default {
   name: 'TodoList',
@@ -18,8 +18,8 @@ export default {
   methods: {
     deleteTodo(todo) {
       sweetAlert({
-        title: 'Você tem certeza que deseja excluir a tarefa?',
-        text: 'Esta tarefa será excluída!',
+        title: 'Você tem Certeza que Deseja Excluir a Tarefa?',
+        text: 'Esta Tarefa será Excluída!',
         type: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#DD6B55',
@@ -29,13 +29,13 @@ export default {
       () => {
         const todoIndex = this.todos.indexOf(todo);
         this.todos.splice(todoIndex, 1);
-        sweetAlert('Deleted!', 'Sua tarefa foi excluída.', 'success');
+        sweetAlert('Excluído!', 'Sua tarefa foi Excluída.', 'success');
       });
     },
     completeTodo(todo) {
       const todoIndex = this.todos.indexOf(todo);
       this.todos[todoIndex].feito = true;
-      sweetAlert('Success!', 'Tarefa está Completa!', 'success');
+      sweetAlert('Sucesso!', 'Parabéns! A Tarefa está Completa!', 'success');
     },
   },
 };

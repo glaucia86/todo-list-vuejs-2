@@ -12,47 +12,47 @@
 </template>
 
 <script>
-import sweetAlert from "sweetalert";
-import TodoList from "./components/pages/TodoList/index";
-import CreateTodo from "./components/pages/CreateTodo/index";
+import sweetAlert from 'sweetalert';
+import TodoList from './components/pages/TodoList/index';
+import CreateTodo from './components/pages/CreateTodo/index';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     TodoList,
-    CreateTodo
+    CreateTodo,
   },
   data() {
     return {
       todos: [
         {
-          titulo: "Todo A",
-          projeto: "Projeto A",
-          concluido: false
+          titulo: 'Todo A',
+          projeto: 'Projeto A',
+          concluido: false,
         },
         {
-          titulo: "Todo B",
-          projeto: "Projeto B",
-          concluido: true
+          titulo: 'Todo B',
+          projeto: 'Projeto B',
+          concluido: true,
         },
         {
-          titulo: "Todo C",
-          projeto: "Projeto C",
-          concluido: false
+          titulo: 'Todo C',
+          projeto: 'Projeto C',
+          concluido: false,
         },
         {
-          titulo: "Todo D",
-          projeto: "Projeto D",
-          concluido: false
-        }
+          titulo: 'Todo D',
+          projeto: 'Projeto D',
+          concluido: false,
+        },
       ],
     };
   },
   methods: {
     createTodo(novoTitulo) {
       this.todos.push(novoTitulo);
-      sweetAlert('Success!', 'Adicionado To-Do', 'success');
-    }
-  }
+      sweetAlert('Sucesso!', 'Nova Tarefa Adicionada.', 'success');
+    },
+  },
 };
 </script>

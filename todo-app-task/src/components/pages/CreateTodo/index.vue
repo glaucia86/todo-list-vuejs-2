@@ -15,12 +15,8 @@
             <input v-model="textoProjeto" type="text">
           </div>
           <div class="ui two button attached buttons">
-            <button class="ui basic blue button" v-on:click="enviarForm()">
-              Adicionar
-            </button>
-            <button class="ui basic red button" v-on:click="fecharForm()">
-              Cancelar
-            </button>
+            <button class="ui basic blue button" v-on:click="enviarForm()">Adicionar</button>
+            <button class="ui basic red button" v-on:click="fecharForm()">Cancelar</button>
           </div>
         </div>
       </div>
@@ -29,5 +25,4 @@
 </template>
 
 <script src="./CreateTodo" />
-<style scoped></style>
 

@@ -24,7 +24,7 @@ export default {
       this.foiCriado = false;
     },
     enviarForm() {
-      if (this.textoTitulo.length > 0 && this.textoProjeto > 0) {
+      if (this.textoTitulo.length > 0 && this.textoProjeto.length > 0) {
         const titulo = this.textoTitulo;
         const projeto = this.textoProjeto;
 
