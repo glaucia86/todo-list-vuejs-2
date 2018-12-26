@@ -9,6 +9,6 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 - Node.js;
 - Npm;
 - UI Semantic;
-- Sweetheart Alert Package;
+- Sweetheart Alert Package ~ 1.1.3;
 - Conceito de SPA;
 - Vue Router;
