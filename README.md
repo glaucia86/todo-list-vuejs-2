@@ -1,7 +1,7 @@
 # Tutorial: Aplicação Todo List com Vue.js 2 by Glaucia Lemos
 
 <p align="center">
-  <img src="https://i.imgsafe.org/3d/3d0e17b8c1.jpeg"/>  
+  <img src="https://i.imgsafe.org/41/4157b4c1ad.jpeg"/>  
 </p>
 
 Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
