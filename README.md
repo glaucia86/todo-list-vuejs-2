@@ -1,4 +1,4 @@
-# utorial: Aplicação Todo List com Vue.js 2 by Glaucia Lemos
+# Tutorial: Aplicação Todo List com Vue.js 2 by Glaucia Lemos
 
 <p align="center">
   <img src="https://i.imgsafe.org/3d/3d0e17b8c1.jpeg"/>  
