@@ -4,12 +4,21 @@
       <div class="ui text container">
         <h1 class="ui inverted header"> Aplicação Todo List com Vue.js 2</h1>
         <h2 class="ui inverted header">Glaucia Lemos
-          <div lass="sub header">Regional Cloud Developer Advocate - Microsoft</div>
+          <div class="sub header">Regional Cloud Developer Advocate - Microsoft</div>
         </h2>
         <h3 class="ui inverted header">Rio de Janeiro, Brazil - 2019</h3>
-        <div class="ui huge primary button">Saiba Mais Aqui
-          <i class="right arrow icon"></i>
-        </div>
+        <a class="tiny ui youtube button" type="button" href="https://www.youtube.com/user/l32759">
+          <i class="youtube icon"></i>
+          YouTube
+        </a>
+        <a class="tiny ui linkedin button" type="button" href="https://www.linkedin.com/in/glaucialemos/">
+          <i class="linkedin icon"></i>
+          LinkedIn
+        </a>
+        <a class="tiny ui twitter button" type="button" href="https://twitter.com/glaucia_lemos86">
+          <i class="twitter icon"></i>
+          Twitter
+        </a>
       </div>
     </div>
     <br />
