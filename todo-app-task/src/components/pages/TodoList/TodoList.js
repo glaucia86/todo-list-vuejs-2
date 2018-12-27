@@ -18,18 +18,22 @@ export default {
   methods: {
     deleteTodo(todo) {
       sweetAlert({
-        title: 'Você Tem Certeza que Deseja Excluir a Tarefa?',
-        text: 'Atenção. Esta Tarefa será Excluída!',
-        type: 'warning',
-        showCancelButton: true,
-        confirmButtonColor: '#DD6B55',
-        confirmButtonText: 'Sim. Quero Excluir!',
-        closeOnConfirm: false,
-      },
-      () => {
-        const todoIndex = this.todos.indexOf(todo);
-        this.todos.splice(todoIndex, 1);
-        sweetAlert('Excluído!', 'Sua Tarefa foi Excluída.', 'success');
+        title: 'Você tem certeza que deseja excluir a Tarefa?',
+        text: 'Atenção! Esta Tarefa será Excluída!',
+        icon: 'warning',
+        buttons: true,
+        dangerMode: true,
+      }).then((excluirTodo) => {
+        if (excluirTodo) {
+          const todoIndex = this.todos.indexOf(todo);
+          this.todos.splice(todoIndex, 1);
+          sweetAlert('Excluído!', 'Sua Tarefa foi Excluída', {
+            icon: 'success',
+          });
+        } else {
+          sweetAlert('Cancelado', 'Retornar para a Lista de Tarefas', 'error');
+        }
+        return false;
       });
     },
     completeTodo(todo) {

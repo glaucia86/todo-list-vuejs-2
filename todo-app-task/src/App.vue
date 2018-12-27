@@ -1,6 +1,18 @@
 <template>
   <div id="app">
-    <h1 class="ui dividing centered header">Aplicação Todo List com Vue.js</h1>
+    <div class="ui inverted vertical masthead center aligned segment">
+      <div class="ui text container">
+        <h1 class="ui inverted header"> Aplicação Todo List com Vue.js 2</h1>
+        <h2 class="ui inverted header">Glaucia Lemos
+          <div lass="sub header">Regional Cloud Developer Advocate - Microsoft</div>
+        </h2>
+        <h3 class="ui inverted header">Rio de Janeiro, Brazil - 2019</h3>
+        <div class="ui huge primary button">Saiba Mais Aqui
+          <i class="right arrow icon"></i>
+        </div>
+      </div>
+    </div>
+    <br />
     <div class="ui three column centered grid">
       <div class="column">
         <todo-list v-bind:todos="todos"></todo-list>
