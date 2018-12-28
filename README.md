@@ -19,15 +19,19 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 
 ## O que Preciso Saber para prosseguir na série?!
 
+* **Ter noções de HTML & CSS:**
+    - Curso de HTML5 Completo (Curso em Vídeo): [AQUI](https://www.youtube.com/playlist?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o) 
+
 * **Ter noções de JavaScript:**
     - Desvendando a linguagem JavaScript (Rodrigo Branas): [AQUI](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc)
     
 * **Ter noções de Vue.js:**
-  - Vue.js 2.0 (Igor Luiz): [AQUI](https://www.youtube.com/playlist?list=PLFtCenSt_W2Fxgh1fjjwXK20qg2MdC2wp)
-  
+    - Vue.js 2.0 (Igor Luiz): [AQUI](https://www.youtube.com/playlist?list=PLFtCenSt_W2Fxgh1fjjwXK20qg2MdC2wp)
+
 ## Conteúdo dos Vídeos do Tutorial:
 
 - [Aula 01 - Introdução]()
+
 
 ## Testando a Aplicação Localmente:
 
