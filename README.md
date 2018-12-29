@@ -13,7 +13,7 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 - Vuejs 2 - [GUIDE AQUI](https://vuejs.org/v2/guide/)
 - UI Semantic;
 - Yarn - [DoWNLOAD AQUI](https://yarnpkg.com/pt-BR/)
-- Sweetheart Alert Package ~ 1.1.3;
+- Sweetheart Alert Package v.2;
 - Conceito de SPA;
 - Vue Router (somente o conceito) - [GUIDE AQUI](https://router.vuejs.org/)
 
