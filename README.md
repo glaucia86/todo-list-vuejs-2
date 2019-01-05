@@ -27,7 +27,11 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
   
 ## Conteúdo dos Vídeos do Tutorial:
 
-- [Aula 01 - Introdução]()
+- [Aula 01 - Breve Introdução sobre Vue.Js]()
+
+- [Aula 02 - Preparando o Ambiente de Desenvolvimento]()
+
+- [Aula 03 - Criando a estrutura do Projeto]()
 
 ## Testando a Aplicação Localmente:
 
