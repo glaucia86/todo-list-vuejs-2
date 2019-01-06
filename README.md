@@ -13,18 +13,21 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 - Vuejs 2 - [GUIDE AQUI](https://vuejs.org/v2/guide/)
 - UI Semantic;
 - Yarn - [DoWNLOAD AQUI](https://yarnpkg.com/pt-BR/)
-- Sweetheart Alert Package ~ 1.1.3;
+- Sweetheart Alert Package v.2;
 - Conceito de SPA;
 - Vue Router (somente o conceito) - [GUIDE AQUI](https://router.vuejs.org/)
 
 ## O que Preciso Saber para prosseguir na série?!
 
+* **Ter noções de HTML & CSS:**
+    - Curso de HTML5 Completo (Curso em Vídeo): [AQUI](https://www.youtube.com/playlist?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o) 
+
 * **Ter noções de JavaScript:**
     - Desvendando a linguagem JavaScript (Rodrigo Branas): [AQUI](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc)
     
 * **Ter noções de Vue.js:**
-  - Vue.js 2.0 (Igor Luiz): [AQUI](https://www.youtube.com/playlist?list=PLFtCenSt_W2Fxgh1fjjwXK20qg2MdC2wp)
-  
+    - Vue.js 2.0 (Igor Luiz): [AQUI](https://www.youtube.com/playlist?list=PLFtCenSt_W2Fxgh1fjjwXK20qg2MdC2wp)
+
 ## Conteúdo dos Vídeos do Tutorial:
 
 - [Aula 01 - Breve Introdução sobre Vue.Js]()
@@ -32,6 +35,7 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 - [Aula 02 - Preparando o Ambiente de Desenvolvimento]()
 
 - [Aula 03 - Criando a estrutura do Projeto]()
+
 
 ## Testando a Aplicação Localmente:
 
