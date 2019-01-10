@@ -32,7 +32,7 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 
 - [Aula 01 - Breve Introdução sobre Vue.Js](https://youtu.be/-ZICkiBzkcw)
 - [Aula 02 - Preparando o Ambiente de Desenvolvimento]()
-- [Aula 03 - Criando a estrutura do Projeto]()
+- [Aula 03 - Criando a Estrutura do Projeto]()
 - [Aula 04 - ]()
 - [Aula 05 - ]()
 - [Aula 06 - ]()
