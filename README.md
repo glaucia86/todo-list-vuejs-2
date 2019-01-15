@@ -12,7 +12,7 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 - Node.JS - [DOWNLOAD AQUI](https://nodejs.org/pt-br/)
 - Vuejs 2 - [GUIDE AQUI](https://vuejs.org/v2/guide/)
 - UI Semantic;
-- Yarn - [DoWNLOAD AQUI](https://yarnpkg.com/pt-BR/)
+- Yarn - [DOWNLOAD AQUI](https://yarnpkg.com/pt-BR/)
 - Sweetheart Alert Package v.2;
 - Conceito de SPA;
 - Vue Router (somente o conceito) - [GUIDE AQUI](https://router.vuejs.org/)
@@ -30,9 +30,9 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 
 ## Conteúdo dos Vídeos do Tutorial:
 
-- [Aula 01 - Breve Introdução sobre Vue.Js]()
+- [Aula 01 - Breve Introdução sobre Vue.Js](https://youtu.be/-ZICkiBzkcw)
 - [Aula 02 - Preparando o Ambiente de Desenvolvimento]()
-- [Aula 03 - Criando a estrutura do Projeto]()
+- [Aula 03 - Criando a Estrutura do Projeto]()
 - [Aula 04 - ]()
 - [Aula 05 - ]()
 - [Aula 06 - ]()
