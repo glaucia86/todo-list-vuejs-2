@@ -8,7 +8,7 @@ Repositório responsável pelo desenvolvimento de um TODO-List com Vue.js 2.
 
 ## Recursos Utilizados Durante o Desenvolvimento: :rocket:
 
-- Visual Studio Code - [DOWNLOAD AQUI](https://code.visualstudio.com/)
+- Visual Studio Code - [DOWNLOAD AQUI](https://code.visualstudio.com/?WT.mc_id=javascript-0000-gllemos)
 - Node.JS - [DOWNLOAD AQUI](https://nodejs.org/pt-br/)
 - Vuejs 2 - [GUIDE AQUI](https://vuejs.org/v2/guide/)
 - UI Semantic;
